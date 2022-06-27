@@ -1,0 +1,16 @@
+.Explanations {
+    background-color: rgb(24, 234, 213);
+    padding: 10px 100px;   
+}
+.box{
+    background-color: #ffe6ff;
+    padding : 3px 5px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    .Explanations {
+    background-color: #eff6ff;
+    padding: 50px 10px;
+    }
+    
+}

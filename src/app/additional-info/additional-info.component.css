@@ -1,0 +1,15 @@
+.Additional-INFO{
+    background-color: #eff6ff;
+    padding: 140px 100px;
+}
+.Login{
+    background-color: #eff6ff;
+    padding: 20px 30px;
+} 
+@media screen and (max-width:600px) {
+    .Additional-INFO
+    {
+        padding: 140% 30px;
+    }
+    
+}

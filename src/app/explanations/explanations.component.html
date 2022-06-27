@@ -1,0 +1,16 @@
+<section class="Explanations">
+    <div class="container">
+        <h1 class="text-center">Explanations</h1>
+    </div>
+    <div class="row mt-2" >
+        <div class="col-lg-3 mb-3" *ngFor="let cs of Explanations">
+        <div class="box shadow-sm">
+            <img src= "{{cs.image}}" width="100%">
+            <h4>{{ cs.name }}</h4>
+            <p> {{ cs.description }}</p>
+            <button class="btn btn-primary btn-sm">Read now</button>
+        </div>
+        </div>
+
+    </div>
+</section>
